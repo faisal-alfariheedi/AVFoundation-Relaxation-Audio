@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9656998A6F8A3F946C4C6D /* Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A1771A9A6A483010C267EE /* Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework */; };
+		3A4FE5C12779F7FF00E6235B /* m1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A4FE5C02779F7FF00E6235B /* m1.wav */; };
+		3A4FE5C32779F97100E6235B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4FE5C22779F97100E6235B /* AVFoundation.framework */; };
 		3ABBCED527733BC40008F7A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCED427733BC40008F7A5 /* AppDelegate.swift */; };
 		3ABBCED727733BC50008F7A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCED627733BC50008F7A5 /* SceneDelegate.swift */; };
 		3ABBCED927733BC50008F7A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCED827733BC50008F7A5 /* ViewController.swift */; };
@@ -17,6 +20,8 @@
 		3ABBCEEF27733BC60008F7A5 /* AVFoundation_Relaxation_AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCEEE27733BC60008F7A5 /* AVFoundation_Relaxation_AudioTests.swift */; };
 		3ABBCEF927733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCEF827733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITests.swift */; };
 		3ABBCEFB27733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABBCEFA27733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITestsLaunchTests.swift */; };
+		3B35EF88EBEE65BF25025FDA /* Pods_AVFoundation_Relaxation_AudioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC5D3C0B977854480CD518D /* Pods_AVFoundation_Relaxation_AudioTests.framework */; };
+		9C239D57404E6733E227480B /* Pods_AVFoundation_Relaxation_Audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81283A8ADFD101A292BA9984 /* Pods_AVFoundation_Relaxation_Audio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4A869BD73AF604846D2A38 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.release.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A4FE5C02779F7FF00E6235B /* m1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = m1.wav; sourceTree = "<group>"; };
+		3A4FE5C22779F97100E6235B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3ABBCED127733BC40008F7A5 /* AVFoundation Relaxation Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation Relaxation Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBCED427733BC40008F7A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ABBCED627733BC50008F7A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		3ABBCEF427733BC60008F7A5 /* AVFoundation Relaxation AudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AVFoundation Relaxation AudioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABBCEF827733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundation_Relaxation_AudioUITests.swift; sourceTree = "<group>"; };
 		3ABBCEFA27733BC60008F7A5 /* AVFoundation_Relaxation_AudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundation_Relaxation_AudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EC5D3C0B977854480CD518D /* Pods_AVFoundation_Relaxation_AudioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation_Relaxation_AudioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CCE79EF43940B72495AA29 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FB3B48D1DD5A1B81E0E31F4 /* Pods-AVFoundation Relaxation AudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation AudioTests.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation AudioTests/Pods-AVFoundation Relaxation AudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2721BA7154F1C4AA4B1A16 /* Pods-AVFoundation Relaxation AudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation AudioTests.release.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation AudioTests/Pods-AVFoundation Relaxation AudioTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E68415C80653377F1E183AF /* Pods-AVFoundation Relaxation Audio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation Audio.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation Audio/Pods-AVFoundation Relaxation Audio.debug.xcconfig"; sourceTree = "<group>"; };
+		70A1771A9A6A483010C267EE /* Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1F5110CD407ADBA233F6A3 /* Pods-AVFoundation Relaxation Audio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundation Relaxation Audio.release.xcconfig"; path = "Target Support Files/Pods-AVFoundation Relaxation Audio/Pods-AVFoundation Relaxation Audio.release.xcconfig"; sourceTree = "<group>"; };
+		81283A8ADFD101A292BA9984 /* Pods_AVFoundation_Relaxation_Audio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundation_Relaxation_Audio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4FE5C32779F97100E6235B /* AVFoundation.framework in Frameworks */,
+				9C239D57404E6733E227480B /* Pods_AVFoundation_Relaxation_Audio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B35EF88EBEE65BF25025FDA /* Pods_AVFoundation_Relaxation_AudioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +91,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9656998A6F8A3F946C4C6D /* Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B4392B54BE41C44A867263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A4FE5C22779F97100E6235B /* AVFoundation.framework */,
+				81283A8ADFD101A292BA9984 /* Pods_AVFoundation_Relaxation_Audio.framework */,
+				70A1771A9A6A483010C267EE /* Pods_AVFoundation_Relaxation_Audio_AVFoundation_Relaxation_AudioUITests.framework */,
+				3EC5D3C0B977854480CD518D /* Pods_AVFoundation_Relaxation_AudioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A4FE5C42779FB3400E6235B /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				3A4FE5C02779F7FF00E6235B /* m1.wav */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
 		3ABBCEC827733BC40008F7A5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				3ABBCEED27733BC60008F7A5 /* AVFoundation Relaxation AudioTests */,
 				3ABBCEF727733BC60008F7A5 /* AVFoundation Relaxation AudioUITests */,
 				3ABBCED227733BC40008F7A5 /* Products */,
+				AAF2EC513C7EF97723D70185 /* Pods */,
+				35B4392B54BE41C44A867263 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				3ABBCED427733BC40008F7A5 /* AppDelegate.swift */,
+				3A4FE5C42779FB3400E6235B /* sound */,
 				3ABBCED627733BC50008F7A5 /* SceneDelegate.swift */,
 				3ABBCED827733BC50008F7A5 /* ViewController.swift */,
 				3ABBCEDA27733BC50008F7A5 /* Main.storyboard */,
@@ -130,6 +172,19 @@
 			path = "AVFoundation Relaxation AudioUITests";
 			sourceTree = "<group>";
 		};
+		AAF2EC513C7EF97723D70185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E68415C80653377F1E183AF /* Pods-AVFoundation Relaxation Audio.debug.xcconfig */,
+				7D1F5110CD407ADBA233F6A3 /* Pods-AVFoundation Relaxation Audio.release.xcconfig */,
+				49CCE79EF43940B72495AA29 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.debug.xcconfig */,
+				2A4A869BD73AF604846D2A38 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.release.xcconfig */,
+				4FB3B48D1DD5A1B81E0E31F4 /* Pods-AVFoundation Relaxation AudioTests.debug.xcconfig */,
+				6C2721BA7154F1C4AA4B1A16 /* Pods-AVFoundation Relaxation AudioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBCEFE27733BC60008F7A5 /* Build configuration list for PBXNativeTarget "AVFoundation Relaxation Audio" */;
 			buildPhases = (
+				ADE6689FC26C46632C58B921 /* [CP] Check Pods Manifest.lock */,
 				3ABBCECD27733BC40008F7A5 /* Sources */,
 				3ABBCECE27733BC40008F7A5 /* Frameworks */,
 				3ABBCECF27733BC40008F7A5 /* Resources */,
+				DE77588D74FE0E2D245657ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBCF0127733BC60008F7A5 /* Build configuration list for PBXNativeTarget "AVFoundation Relaxation AudioTests" */;
 			buildPhases = (
+				7586CE0B6276EB0AA80386DD /* [CP] Check Pods Manifest.lock */,
 				3ABBCEE627733BC60008F7A5 /* Sources */,
 				3ABBCEE727733BC60008F7A5 /* Frameworks */,
 				3ABBCEE827733BC60008F7A5 /* Resources */,
@@ -172,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ABBCF0427733BC60008F7A5 /* Build configuration list for PBXNativeTarget "AVFoundation Relaxation AudioUITests" */;
 			buildPhases = (
+				AF058CDEFE815EA2CC5E196A /* [CP] Check Pods Manifest.lock */,
 				3ABBCEF027733BC60008F7A5 /* Sources */,
 				3ABBCEF127733BC60008F7A5 /* Frameworks */,
 				3ABBCEF227733BC60008F7A5 /* Resources */,
+				1CCFA2AD77FB04C90AD4DD8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4FE5C12779F7FF00E6235B /* m1.wav in Resources */,
 				3ABBCEE427733BC60008F7A5 /* LaunchScreen.storyboard in Resources */,
 				3ABBCEE127733BC60008F7A5 /* Assets.xcassets in Resources */,
 				3ABBCEDC27733BC50008F7A5 /* Main.storyboard in Resources */,
@@ -255,6 +316,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CCFA2AD77FB04C90AD4DD8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7586CE0B6276EB0AA80386DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVFoundation Relaxation AudioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE6689FC26C46632C58B921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVFoundation Relaxation Audio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF058CDEFE815EA2CC5E196A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE77588D74FE0E2D245657ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio/Pods-AVFoundation Relaxation Audio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio/Pods-AVFoundation Relaxation Audio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AVFoundation Relaxation Audio/Pods-AVFoundation Relaxation Audio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3ABBCECD27733BC40008F7A5 /* Sources */ = {
@@ -438,6 +602,7 @@
 		};
 		3ABBCEFF27733BC60008F7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E68415C80653377F1E183AF /* Pods-AVFoundation Relaxation Audio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +630,7 @@
 		};
 		3ABBCF0027733BC60008F7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1F5110CD407ADBA233F6A3 /* Pods-AVFoundation Relaxation Audio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +658,7 @@
 		};
 		3ABBCF0227733BC60008F7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB3B48D1DD5A1B81E0E31F4 /* Pods-AVFoundation Relaxation AudioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +683,7 @@
 		};
 		3ABBCF0327733BC60008F7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2721BA7154F1C4AA4B1A16 /* Pods-AVFoundation Relaxation AudioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +708,7 @@
 		};
 		3ABBCF0527733BC60008F7A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CCE79EF43940B72495AA29 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +731,7 @@
 		};
 		3ABBCF0627733BC60008F7A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4A869BD73AF604846D2A38 /* Pods-AVFoundation Relaxation Audio-AVFoundation Relaxation AudioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

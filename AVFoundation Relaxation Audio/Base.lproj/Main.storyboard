@@ -1,24 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AVFoundation_Relaxation_Audio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awb-0w-ta7">
+                                <rect key="frame" x="158" y="40" width="98" height="56"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="playpause.fill" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35" scale="medium"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="playstopmeth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Snh-mN-rNW"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qh1-lS-WHF">
+                                <rect key="frame" x="18" y="104" width="378" height="31"/>
+                                <connections>
+                                    <action selector="edend:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pCN-zW-2yc"/>
+                                    <action selector="editend:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="R1v-Ei-H7f"/>
+                                    <action selector="editstart:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="jfq-pz-cE3"/>
+                                    <action selector="edstart:" destination="BYZ-38-t0r" eventType="touchDown" id="wfE-Vy-JIj"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pi-pg-hdT">
+                                <rect key="frame" x="20" y="139" width="374" height="703"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qh1-lS-WHF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="5f7-hZ-Faz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0pi-pg-hdT" secondAttribute="bottom" constant="20" id="64j-ff-9dD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0pi-pg-hdT" secondAttribute="trailing" constant="20" id="GiU-Dc-rrR"/>
+                            <constraint firstItem="awb-0w-ta7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="Ir7-K6-A3Q"/>
+                            <constraint firstItem="qh1-lS-WHF" firstAttribute="top" secondItem="awb-0w-ta7" secondAttribute="bottom" constant="8" symbolic="YES" id="KnK-oA-gbj"/>
+                            <constraint firstItem="awb-0w-ta7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gmA-Ug-9z1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qh1-lS-WHF" secondAttribute="trailing" constant="20" id="hy0-u0-vdq"/>
+                            <constraint firstItem="0pi-pg-hdT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jW3-Kl-XpF"/>
+                            <constraint firstItem="0pi-pg-hdT" firstAttribute="top" secondItem="qh1-lS-WHF" secondAttribute="bottom" constant="5" id="oLV-al-m6L"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playstop" destination="awb-0w-ta7" id="Fq0-lX-Aof"/>
+                        <outlet property="slider" destination="qh1-lS-WHF" id="VJB-0t-OYU"/>
+                        <outlet property="vi" destination="0pi-pg-hdT" id="wed-Hs-Zsz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="106" y="70"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="playpause.fill" catalog="system" width="128" height="70"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
